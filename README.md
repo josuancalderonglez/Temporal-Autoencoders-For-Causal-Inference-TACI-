@@ -2,7 +2,7 @@
 
 ## Description
 
-In this project, we introduce an approach named Temporal Autoencoders for Causal Inference (TACI). Our methodology leverages a two-headed Temporal Convolutional Network (TCN) autoencoder architecture to encode time series data x(t) and y(t). A third TCN is used for decoding a future trajectory of y(t) (shifted by a time, τ) from a compact latent space derived from the outputs of the first two autoencoders. This approach allows for the training of four distinct versions of the network, tailored to predict the future states of x(t) and y(t), incorporating both original and surrogate data. The ultimate goal is to utilize the variance explained (R² values) over a moving window to compute metrics (χx→y and χy→x) for assessing causal inference between the two variables.
+In this project, we introduce an approach named Temporal Autoencoders for Causal Inference (TACI). Our methodology uses a two-headed Temporal Convolutional Network (TCN) autoencoder architecture to encode time series data x(t) and y(t). A third TCN is used for decoding a future trajectory of y(t) (shifted by a time, τ) from a compact latent space derived from the outputs of the first two autoencoders. This approach allows for the training of four distinct versions of the network, tailored to predict the future states of x(t) and y(t), incorporating both original and surrogate data. The ultimate goal is to utilize the variance explained (R² values) over a moving window to compute metrics (χx→y and χy→x) for assessing causal inference between the two variables.
 
 ## Installation Instructions
 
